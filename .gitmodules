@@ -1,0 +1,6 @@
+[submodule "ad-dev-web"]
+	path = ad-dev-web
+	url = git@github.com:Toshiki-Keio/ad-dev-web.git
+[submodule "ad-dev-environment"]
+	path = ad-dev-environment
+	url = git@github.com:Toshiki-Keio/ad-dev-environment.git

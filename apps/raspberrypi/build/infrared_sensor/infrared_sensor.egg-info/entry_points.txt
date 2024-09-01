@@ -1,0 +1,4 @@
+[console_scripts]
+infrared_publisher = infrared_sensor.infrared_publisher:main
+infrared_subscriber = infrared_sensor.infrared_subscriber:main
+

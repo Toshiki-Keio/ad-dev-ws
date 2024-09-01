@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.006182] (infrared_sensor) JobQueued: {'identifier': 'infrared_sensor', 'dependencies': OrderedDict()}
+[0.006703] (infrared_sensor) JobStarted: {'identifier': 'infrared_sensor'}
+[0.097052] (-) TimerEvent: {}
+[0.199200] (-) TimerEvent: {}
+[0.301220] (-) TimerEvent: {}
+[0.403163] (-) TimerEvent: {}
+[0.505201] (-) TimerEvent: {}
+[0.606946] (-) TimerEvent: {}
+[0.709011] (-) TimerEvent: {}
+[0.810870] (-) TimerEvent: {}
+[0.912691] (-) TimerEvent: {}
+[1.014416] (-) TimerEvent: {}
+[1.116408] (-) TimerEvent: {}
+[1.218329] (-) TimerEvent: {}
+[1.320303] (-) TimerEvent: {}
+[1.422250] (-) TimerEvent: {}
+[1.524114] (-) TimerEvent: {}
+[1.625959] (-) TimerEvent: {}
+[1.727815] (-) TimerEvent: {}
+[1.829620] (-) TimerEvent: {}
+[1.931482] (-) TimerEvent: {}
+[2.033354] (-) TimerEvent: {}
+[2.135176] (-) TimerEvent: {}
+[2.237023] (-) TimerEvent: {}
+[2.338880] (-) TimerEvent: {}
+[2.440691] (-) TimerEvent: {}
+[2.542467] (-) TimerEvent: {}
+[2.644288] (-) TimerEvent: {}
+[2.746162] (-) TimerEvent: {}
+[2.847868] (-) TimerEvent: {}
+[2.949757] (-) TimerEvent: {}
+[3.051611] (-) TimerEvent: {}
+[3.153511] (-) TimerEvent: {}
+[3.255275] (-) TimerEvent: {}
+[3.357132] (-) TimerEvent: {}
+[3.458880] (-) TimerEvent: {}
+[3.560720] (-) TimerEvent: {}
+[3.662496] (-) TimerEvent: {}
+[3.764431] (-) TimerEvent: {}
+[3.866175] (-) TimerEvent: {}
+[3.967978] (-) TimerEvent: {}
+[4.070048] (-) TimerEvent: {}
+[4.171786] (-) TimerEvent: {}
+[4.273862] (-) TimerEvent: {}
+[4.375850] (-) TimerEvent: {}
+[4.477859] (-) TimerEvent: {}
+[4.580021] (-) TimerEvent: {}
+[4.682157] (-) TimerEvent: {}
+[4.784255] (-) TimerEvent: {}
+[4.897617] (-) TimerEvent: {}
+[5.002457] (-) TimerEvent: {}
+[5.104505] (-) TimerEvent: {}
+[5.206312] (-) TimerEvent: {}
+[5.308164] (-) TimerEvent: {}
+[5.410132] (-) TimerEvent: {}
+[5.511969] (-) TimerEvent: {}
+[5.613876] (-) TimerEvent: {}
+[5.715864] (-) TimerEvent: {}
+[5.818022] (-) TimerEvent: {}
+[5.919933] (-) TimerEvent: {}
+[6.021865] (-) TimerEvent: {}
+[6.123778] (-) TimerEvent: {}
+[6.225838] (-) TimerEvent: {}
+[6.327673] (-) TimerEvent: {}
+[6.429524] (-) TimerEvent: {}
+[6.531268] (-) TimerEvent: {}
+[6.633048] (-) TimerEvent: {}
+[6.734731] (-) TimerEvent: {}
+[6.836609] (-) TimerEvent: {}
+[6.938394] (-) TimerEvent: {}
+[7.040143] (-) TimerEvent: {}
+[7.142033] (-) TimerEvent: {}
+[7.243790] (-) TimerEvent: {}
+[7.345750] (-) TimerEvent: {}
+[7.447545] (-) TimerEvent: {}
+[7.549367] (-) TimerEvent: {}
+[7.651114] (-) TimerEvent: {}
+[7.752945] (-) TimerEvent: {}
+[7.854719] (-) TimerEvent: {}
+[7.956695] (-) TimerEvent: {}
+[8.058483] (-) TimerEvent: {}
+[8.160266] (-) TimerEvent: {}
+[8.262107] (-) TimerEvent: {}
+[8.363931] (-) TimerEvent: {}
+[8.465774] (-) TimerEvent: {}
+[8.567631] (-) TimerEvent: {}
+[8.669560] (-) TimerEvent: {}
+[8.771398] (-) TimerEvent: {}
+[8.873316] (-) TimerEvent: {}
+[8.975216] (-) TimerEvent: {}
+[9.077106] (-) TimerEvent: {}
+[9.178914] (-) TimerEvent: {}
+[9.280910] (-) TimerEvent: {}
+[9.382904] (-) TimerEvent: {}
+[9.485037] (-) TimerEvent: {}
+[9.586942] (-) TimerEvent: {}
+[9.688901] (-) TimerEvent: {}
+[9.790671] (-) TimerEvent: {}
+[9.892678] (-) TimerEvent: {}
+[9.994430] (-) TimerEvent: {}
+[10.096139] (-) TimerEvent: {}
+[10.197966] (-) TimerEvent: {}
+[10.299729] (-) TimerEvent: {}
+[10.401612] (-) TimerEvent: {}
+[10.503453] (-) TimerEvent: {}
+[10.605475] (-) TimerEvent: {}
+[10.707264] (-) TimerEvent: {}
+[10.809175] (-) TimerEvent: {}
+[10.911184] (-) TimerEvent: {}
+[11.013531] (-) TimerEvent: {}
+[11.115654] (-) TimerEvent: {}
+[11.217911] (-) TimerEvent: {}
+[11.243777] (infrared_sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/infrared_sensor', 'build', '--build-base', '/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build', 'install', '--record', '/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/install.log', '--install-scripts', '$base/lib/infrared_sensor', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ad-dev-ws/apps/raspberrypi/src/infrared_sensor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': 'fe80::efab:ec30:d898:d6c1%wlan0 64242 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ad-dev-ws/apps/raspberrypi/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '100', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::efab:ec30:d898:d6c1%wlan0 64242 fe80::ba27:ebff:fe3e:b632%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[11.318279] (-) TimerEvent: {}
+[11.429025] (-) TimerEvent: {}
+[11.530844] (-) TimerEvent: {}
+[11.632751] (-) TimerEvent: {}
+[11.734567] (-) TimerEvent: {}
+[11.836595] (-) TimerEvent: {}
+[11.938428] (-) TimerEvent: {}
+[12.040226] (-) TimerEvent: {}
+[12.142137] (-) TimerEvent: {}
+[12.243968] (-) TimerEvent: {}
+[12.345926] (-) TimerEvent: {}
+[12.447909] (-) TimerEvent: {}
+[12.549741] (-) TimerEvent: {}
+[12.651527] (-) TimerEvent: {}
+[12.753460] (-) TimerEvent: {}
+[12.855318] (-) TimerEvent: {}
+[12.957250] (-) TimerEvent: {}
+[13.059110] (-) TimerEvent: {}
+[13.161002] (-) TimerEvent: {}
+[13.262853] (-) TimerEvent: {}
+[13.364669] (-) TimerEvent: {}
+[13.466405] (-) TimerEvent: {}
+[13.568194] (-) TimerEvent: {}
+[13.670087] (-) TimerEvent: {}
+[13.771897] (-) TimerEvent: {}
+[13.873831] (-) TimerEvent: {}
+[13.975605] (-) TimerEvent: {}
+[14.077473] (-) TimerEvent: {}
+[14.179278] (-) TimerEvent: {}
+[14.281310] (-) TimerEvent: {}
+[14.383236] (-) TimerEvent: {}
+[14.485124] (-) TimerEvent: {}
+[14.587055] (-) TimerEvent: {}
+[14.688918] (-) TimerEvent: {}
+[14.790744] (-) TimerEvent: {}
+[14.892652] (-) TimerEvent: {}
+[14.994475] (-) TimerEvent: {}
+[15.096441] (-) TimerEvent: {}
+[15.198262] (-) TimerEvent: {}
+[15.300176] (-) TimerEvent: {}
+[15.402026] (-) TimerEvent: {}
+[15.494225] (infrared_sensor) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[15.496469] (infrared_sensor) StderrLine: {'line': b'  warnings.warn(\n'}
+[15.502356] (-) TimerEvent: {}
+[15.604117] (-) TimerEvent: {}
+[15.650239] (infrared_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[15.659623] (infrared_sensor) StdoutLine: {'line': b'creating ../../build/infrared_sensor/infrared_sensor.egg-info\n'}
+[15.662219] (infrared_sensor) StdoutLine: {'line': b'writing ../../build/infrared_sensor/infrared_sensor.egg-info/PKG-INFO\n'}
+[15.666561] (infrared_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/infrared_sensor/infrared_sensor.egg-info/dependency_links.txt\n'}
+[15.669293] (infrared_sensor) StdoutLine: {'line': b'writing entry points to ../../build/infrared_sensor/infrared_sensor.egg-info/entry_points.txt\n'}
+[15.671615] (infrared_sensor) StdoutLine: {'line': b'writing requirements to ../../build/infrared_sensor/infrared_sensor.egg-info/requires.txt\n'}
+[15.673987] (infrared_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/infrared_sensor/infrared_sensor.egg-info/top_level.txt\n'}
+[15.677676] (infrared_sensor) StdoutLine: {'line': b"writing manifest file '../../build/infrared_sensor/infrared_sensor.egg-info/SOURCES.txt'\n"}
+[15.703128] (infrared_sensor) StdoutLine: {'line': b"reading manifest file '../../build/infrared_sensor/infrared_sensor.egg-info/SOURCES.txt'\n"}
+[15.705054] (-) TimerEvent: {}
+[15.718477] (infrared_sensor) StdoutLine: {'line': b"writing manifest file '../../build/infrared_sensor/infrared_sensor.egg-info/SOURCES.txt'\n"}
+[15.721229] (infrared_sensor) StdoutLine: {'line': b'running build\n'}
+[15.723362] (infrared_sensor) StdoutLine: {'line': b'running build_py\n'}
+[15.725552] (infrared_sensor) StdoutLine: {'line': b'creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build\n'}
+[15.728252] (infrared_sensor) StdoutLine: {'line': b'creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib\n'}
+[15.730495] (infrared_sensor) StdoutLine: {'line': b'creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor\n'}
+[15.732684] (infrared_sensor) StdoutLine: {'line': b'copying infrared_sensor/__init__.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor\n'}
+[15.734746] (infrared_sensor) StdoutLine: {'line': b'copying infrared_sensor/infrared_publisher.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor\n'}
+[15.736541] (infrared_sensor) StdoutLine: {'line': b'copying infrared_sensor/infrared_subscriber.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor\n'}
+[15.738856] (infrared_sensor) StdoutLine: {'line': b'running install\n'}
+[15.743867] (infrared_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[15.756683] (infrared_sensor) StdoutLine: {'line': b'creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor\n'}
+[15.759022] (infrared_sensor) StdoutLine: {'line': b'copying /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor/__init__.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor\n'}
+[15.761621] (infrared_sensor) StdoutLine: {'line': b'copying /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor/infrared_publisher.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor\n'}
+[15.768274] (infrared_sensor) StdoutLine: {'line': b'copying /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor/infrared_subscriber.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor\n'}
+[15.775081] (infrared_sensor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor/__init__.py to __init__.cpython-310.pyc\n'}
+[15.780208] (infrared_sensor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor/infrared_publisher.py to infrared_publisher.cpython-310.pyc\n'}
+[15.788863] (infrared_sensor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor/infrared_subscriber.py to infrared_subscriber.cpython-310.pyc\n'}
+[15.794855] (infrared_sensor) StdoutLine: {'line': b'running install_data\n'}
+[15.797288] (infrared_sensor) StdoutLine: {'line': b'creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index\n'}
+[15.799696] (infrared_sensor) StdoutLine: {'line': b'creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index/resource_index\n'}
+[15.801924] (infrared_sensor) StdoutLine: {'line': b'creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index/resource_index/packages\n'}
+[15.803968] (infrared_sensor) StdoutLine: {'line': b'copying resource/infrared_sensor -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index/resource_index/packages\n'}
+[15.805668] (-) TimerEvent: {}
+[15.807423] (infrared_sensor) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/infrared_sensor\n'}
+[15.809736] (infrared_sensor) StdoutLine: {'line': b'copying launch/infrared_sensor_launch.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/infrared_sensor\n'}
+[15.811477] (infrared_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.835262] (infrared_sensor) StdoutLine: {'line': b'Copying ../../build/infrared_sensor/infrared_sensor.egg-info to /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor-0.0.0-py3.10.egg-info\n'}
+[15.859069] (infrared_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[15.906052] (-) TimerEvent: {}
+[16.007878] (-) TimerEvent: {}
+[16.109966] (-) TimerEvent: {}
+[16.196056] (infrared_sensor) StdoutLine: {'line': b'Installing infrared_publisher script to /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/infrared_sensor\n'}
+[16.198891] (infrared_sensor) StdoutLine: {'line': b'Installing infrared_subscriber script to /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/infrared_sensor\n'}
+[16.204904] (infrared_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/install.log'\n"}
+[16.210430] (-) TimerEvent: {}
+[16.312859] (-) TimerEvent: {}
+[16.414885] (-) TimerEvent: {}
+[16.517046] (-) TimerEvent: {}
+[16.588800] (infrared_sensor) CommandEnded: {'returncode': 0}
+[16.617574] (-) TimerEvent: {}
+[16.722170] (-) TimerEvent: {}
+[16.768127] (infrared_sensor) JobEnded: {'identifier': 'infrared_sensor', 'rc': 0}
+[16.780661] (-) EventReactorShutdown: {}

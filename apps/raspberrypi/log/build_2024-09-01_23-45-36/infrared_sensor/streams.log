@@ -1,0 +1,44 @@
+[11.251s] Invoking command in '/home/ubuntu/ad-dev-ws/apps/raspberrypi/src/infrared_sensor': PYTHONPATH=/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/infrared_sensor build --build-base /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build install --record /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/install.log --install-scripts $base/lib/infrared_sensor --single-version-externally-managed install_data
+[15.489s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[15.491s]   warnings.warn(
+[15.645s] running egg_info
+[15.654s] creating ../../build/infrared_sensor/infrared_sensor.egg-info
+[15.657s] writing ../../build/infrared_sensor/infrared_sensor.egg-info/PKG-INFO
+[15.661s] writing dependency_links to ../../build/infrared_sensor/infrared_sensor.egg-info/dependency_links.txt
+[15.664s] writing entry points to ../../build/infrared_sensor/infrared_sensor.egg-info/entry_points.txt
+[15.666s] writing requirements to ../../build/infrared_sensor/infrared_sensor.egg-info/requires.txt
+[15.668s] writing top-level names to ../../build/infrared_sensor/infrared_sensor.egg-info/top_level.txt
+[15.672s] writing manifest file '../../build/infrared_sensor/infrared_sensor.egg-info/SOURCES.txt'
+[15.698s] reading manifest file '../../build/infrared_sensor/infrared_sensor.egg-info/SOURCES.txt'
+[15.713s] writing manifest file '../../build/infrared_sensor/infrared_sensor.egg-info/SOURCES.txt'
+[15.716s] running build
+[15.718s] running build_py
+[15.721s] creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build
+[15.723s] creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib
+[15.725s] creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor
+[15.727s] copying infrared_sensor/__init__.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor
+[15.729s] copying infrared_sensor/infrared_publisher.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor
+[15.731s] copying infrared_sensor/infrared_subscriber.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor
+[15.733s] running install
+[15.739s] running install_lib
+[15.751s] creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor
+[15.753s] copying /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor/__init__.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor
+[15.756s] copying /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor/infrared_publisher.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor
+[15.763s] copying /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build/lib/infrared_sensor/infrared_subscriber.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor
+[15.770s] byte-compiling /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor/__init__.py to __init__.cpython-310.pyc
+[15.775s] byte-compiling /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor/infrared_publisher.py to infrared_publisher.cpython-310.pyc
+[15.783s] byte-compiling /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor/infrared_subscriber.py to infrared_subscriber.cpython-310.pyc
+[15.789s] running install_data
+[15.792s] creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index
+[15.794s] creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index/resource_index
+[15.797s] creating /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index/resource_index/packages
+[15.798s] copying resource/infrared_sensor -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/ament_index/resource_index/packages
+[15.802s] copying package.xml -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/infrared_sensor
+[15.804s] copying launch/infrared_sensor_launch.py -> /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/share/infrared_sensor
+[15.806s] running install_egg_info
+[15.830s] Copying ../../build/infrared_sensor/infrared_sensor.egg-info to /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages/infrared_sensor-0.0.0-py3.10.egg-info
+[15.853s] running install_scripts
+[16.191s] Installing infrared_publisher script to /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/infrared_sensor
+[16.193s] Installing infrared_subscriber script to /home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/infrared_sensor
+[16.199s] writing list of installed files to '/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/install.log'
+[16.584s] Invoked command in '/home/ubuntu/ad-dev-ws/apps/raspberrypi/src/infrared_sensor' returned '0': PYTHONPATH=/home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ad-dev-ws/apps/raspberrypi/install/infrared_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/infrared_sensor build --build-base /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/build install --record /home/ubuntu/ad-dev-ws/apps/raspberrypi/build/infrared_sensor/install.log --install-scripts $base/lib/infrared_sensor --single-version-externally-managed install_data
