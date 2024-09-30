@@ -21,6 +21,10 @@ class InfraredSensor:
 
 if __name__ == "__main__":
     infrared_sensor = InfraredSensor()
-    while True:
-        infrared_sensor.getInfraredData()
-        time.sleep(infrared_sensor.time_period)
+    try:
+        while True:
+            infrared_sensor.getInfraredData()
+            time.sleep(infrared_sensor.time_period)
+    except:
+        print("Something error occured")
+        pass
