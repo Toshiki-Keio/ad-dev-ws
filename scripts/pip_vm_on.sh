@@ -1,0 +1,1 @@
+source ~/mypy/bin/activate
