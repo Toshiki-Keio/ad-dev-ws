@@ -3,7 +3,7 @@ import time
 
 import sys
 import os
-lib_path = os.path.abspath(os.path.join(__file__, "../../../../lib"))
+lib_path = os.path.abspath(os.path.join(__file__, "../../../../../lib"))
 # sys.pathにlibフォルダのパスを追加
 sys.path.append(lib_path)
 
