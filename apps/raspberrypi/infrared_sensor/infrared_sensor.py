@@ -1,6 +1,7 @@
 import serial
 import numpy as np
 import time
+
 # Nodeクラスを継承
 class InfraredSensor:
     def __init__(self):
@@ -19,12 +20,12 @@ class InfraredSensor:
         data = list(reversed(data))
         print(data)
 
-if __name__ == "__main__":
-    infrared_sensor = InfraredSensor()
-    try:
-        while True:
-            infrared_sensor.getInfraredData()
-            time.sleep(infrared_sensor.time_period)
-    except:
-        print("Something error occured")
-        pass
+# if __name__ == "__main__":
+#     infrared_sensor = InfraredSensor()
+#     try:
+#         while True:
+#             infrared_sensor.getInfraredData()
+#             time.sleep(infrared_sensor.time_period)
+#     except:
+#         print("Something error occured")
+#         pass
